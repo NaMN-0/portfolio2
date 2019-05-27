@@ -250,8 +250,34 @@ hr{
                     /*responsive rules*/
 
 @media screen and (max-width: 620px){
+
+    .header{
+        height: 50px;
+    }
+
+    .header a{
+        font-size: 18px;
+    }
+
+    .header img{
+        height: 18px;
+        width: 18px;
+    }
+    
+    .about img{
+        height: 150px;
+        width: 100px;
+        margin: 10px
+    }
+
     .about{
-        height: 900px;
+        height: 400px;
+        font-size: 25px;
+    }
+
+    .aboutcontent p{
+        font-size: 15px;
+        margin: 10px auto;
     }
 
     .aboutcontent{
@@ -260,19 +286,40 @@ hr{
 
     .askills{
         display: block;
-        margin: 100px auto;
+        margin: 20px auto;
+    }
+
+    .hobbies p{
+        font-size: 25px;
     }
 
     .hobbylist{
         display: block;
-        margin-left: 28%
+        margin-left: 40%;
     }
     
+    .hobbylist img{
+        height: 70px;
+        width: 70px;
+    }
+
     .header a{
         display: none;
     }
 
     .logo a{
         display: inline;
+    }
+
+    .pro img{
+        height: 80px;
+    }
+
+    .pro p{
+        font-size: 13px;
+    }
+    
+    .prohead{
+        font-size: 25px;
     }
 }
